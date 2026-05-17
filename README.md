@@ -1,33 +1,44 @@
 # AI Email Task Agent
 
-A LangGraph-style automation agent that classifies emails, extracts tasks, and generates follow-up actions.
+AI Email Task Agent is a workflow-style automation project that classifies email text, detects priority, extracts possible tasks, and suggests follow-up actions.
+
+This project is designed as a foundation for a future LangGraph-based email automation agent.
 
 ## Features
 
-- Email classification
-- Task extraction
+- Email category classification
 - Priority detection
-- Follow-up response generation
+- Basic task extraction
+- Follow-up action suggestion
+- Workflow-style state processing
+- Ready to extend with LangGraph and LangChain
 
 ## Tech Stack
 
-Python · LangGraph · LangChain
-
-## Project Purpose
-
-This project is part of an AI automation portfolio focused on building practical tools using Python, LangChain, LangGraph, APIs, and workflow automation.
+- Python
+- LangGraph
+- LangChain
 
 ## How It Works
 
-Input data
-    ↓
-AI processing workflow
-    ↓
-Generated analysis / response
-    ↓
-Output report
+Email text  
+↓  
+Classify email category  
+↓  
+Detect priority  
+↓  
+Extract task  
+↓  
+Suggest follow-up  
+↓  
+Generate summary  
 
-## Setup
+## Example Output
 
-pip install -r requirements.txt
-python app.py
+```text
+Email Task Agent Result
+-----------------------
+Category: Meeting
+Priority: Medium
+Task: Review the email and complete the requested action.
+Follow-up: Check calendar availability and prepare a meeting response.
